@@ -6,7 +6,7 @@
 #define LEAVERLIBRARY_API __declspec(dllimport)
 #endif
 
-class Leaver {
-public:
-	std::string leave(std::string& input);
-};
+	class Leaver {
+	public:
+		LEAVERLIBRARY_API std::string leave(std::string& input);
+	};
